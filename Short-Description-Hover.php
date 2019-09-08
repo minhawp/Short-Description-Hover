@@ -40,5 +40,5 @@ add_action( 'wp_enqueue_scripts' , function(){
 //Add hover funtion
 add_action("woocommerce_after_shop_loop_item" , function(){
     global $product;
-    require("inc/product-hover-template.tpl");
+    require("inc/sdh-template.tpl");
 });
