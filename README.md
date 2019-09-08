@@ -7,7 +7,8 @@
 Show short description of product of your Woocommerce shop
 For more beautiful view, use table HTML tag for short description.
 
-Example :
+Example:
+
 '''
 <table><tbody>
 <tr><td>Product Dimensions: </td><td>9mm x 9mm x 9mm</td></tr>
