@@ -1,7 +1,7 @@
 (function($){
     $(document).ready(function(){
         // console.log('minhawp ready! ');
-        if( $(window).width() > 600 && $(".cdc_shop_loop_box").length > 0  ){
+        if( $(window).width() > 600 && $(".sdh_shop_loop_box").length > 0  ){
 
             var thewidth =  $(window).width();
             var theheight =  $(window).height();
@@ -14,13 +14,13 @@
                     } else {
                         theX = thewidth - 520;
                     }
-                    if (theY > $(this).children('.thetip').height()) {
+                    if (theY > $(this).children('.hoverbox').height()) {
                         theY = e.clientY;
                     } else {
-                        theY = theheight - $(this).children('.thetip').height() - 30;
+                        theY = theheight - $(this).children('.hoverbox').height() - 30;
                     }
 
-                    $(this).children('.cdc_thetip').css('left', theX + 10 ).css('top', theY + 10 ).css('display', 'block');
+                    $(this).children('.sdh_hoverbox').css('left', theX + 10 ).css('top', theY + 10 ).css('display', 'block');
                 });
             }, function() {
                 $(this).children('.sdh_hoverbox').css('display', 'none');
