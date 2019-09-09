@@ -1,5 +1,5 @@
 <a class="sdh_shop_loop_box" href="<?php echo the_permalink(); ?>">
-	<div class="sdh_hoverbox" >
+	<div class="sdh_hoverbox hoverbox" >
 		<strong class="sdh_thetitle"><?php the_title();?></strong>
 		<div class="sdh_thecontent">
 			<!-- short description -->
